@@ -429,7 +429,7 @@ img {
 .carousel-slide {
   width: 320px;
   min-width: 320px;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 9 / 14;
   background: #ffffff;
   border: 5px solid #ffffff;
   border-radius: var(--radius-md);
@@ -447,8 +447,8 @@ img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
-  object-position: center;
+  object-fit: contain;
+  object-position: center top;
 }
 
 @keyframes scrollMarquee {
